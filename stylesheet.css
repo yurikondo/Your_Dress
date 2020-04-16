@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Avenir Next";
+  color: #352a2a;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 65px;
+}
+
+header .header-logo {
+  float: left;
+  padding: 10px;
+}
+
+header .header-list {
+  float: right;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  color: #352a2a;
+  line-height: 65px;
+  padding: 0 20px;
+  display: block;
+}
+
+header li a:hover {
+  background-color: #ddd;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/background-image.gif);
+  background-size: cover;
+  color: white;
+}
+
+.menu-wrapper {
+  padding: 60px 0 20px 0;
+  text-align: center;
+}
+
+.menu-wrapper h2 {
+  font-family: cursive;
+}
+
+.menu-wrapper .menus {
+  margin: 50px 0;
+}
+
+.menu-wrapper .menu {
+  margin: 20px 0;
+}
+
+.menu-wrapper img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.menu-wrapper .text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.faq-wrapper {
+  background-color: #e6ecf0;
+  padding: 60px;
+  text-align: center;
+}
+
+.faq-wrapper .faq-list-item {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.faq-wrapper .faq-list-item h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.faq-wrapper .faq-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: #ccc;
+  font-size: 20px;
+}
+
+.faq-wrapper .answer {
+  font-size: 15px;
+  display: none;
+  padding: 5px 0px;
+  margin: 15px 0;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding: 80px 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.message-wrapper .heading {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  cursor: pointer;
+}
